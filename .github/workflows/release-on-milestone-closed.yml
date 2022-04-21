@@ -22,6 +22,7 @@ jobs:
   release:
     name: "GIT tag, release & create merge-up PR"
     runs-on: ubuntu-latest
+    environment: automatic-releases
 
     steps:
       - name: "Checkout"
